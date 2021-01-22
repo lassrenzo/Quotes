@@ -1,0 +1,68 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+/* CARD CODE */
+.card{
+  padding:15px 30px 15px 30px;
+  max-width:500px;
+  max-height:300px;
+  text-align: center;
+  background-color: #f2e6ff;
+  border-radius: 5px;
+  border-top: #ee9be4 5px;
+  margin-top: 20px;
+} 
+.content{
+  max-width: 600px;
+  padding:20px;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+}
+/* H2/P CODE */
+h2 {
+  background-color: #4a4be7;
+  color:#ffffff;
+  padding:10px;
+  font-family: arial;
+  text-align: center;
+  border-radius:5px;
+  box-shadow: 4px 4px #ee9be4;
+}
+p{
+  font-family:Segoe UI;
+  font-size: 20px;
+}
+/* BTN CODE */
+.btn{
+    height:50px;
+    width:150px;
+    font-size: 18px;
+    color:#ffffff;
+    background-color: #ee9be4;
+    box-shadow: 4px 4px #4a4be7;
+    padding:5px;
+    border-radius: 5px;
+}
+button:focus {
+    outline: none;
+}
+
+/* QUOTES ICON SIZE */
+img{
+    height:2rem;
+    width:2rem;
+}
+
+/* CONTAINER */
+.container-fluid{
+  width: 100%;  
+  padding: 3% 15%;
+}
+
+footer {
+  color: #DBEDF3;
+  text-align: center;
+}
